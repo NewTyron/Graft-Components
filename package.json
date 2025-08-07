@@ -1,17 +1,51 @@
 {
-  "name": "nuxt-app",
-  "private": true,
+  "name": "pledge-custom-components",
+  "private": false,
   "type": "module",
+  "version": "1.0.6",
+  "description": "custom components for my app",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js",
+      "types": "./dist/types/index.d.ts"
+    }
+  },
   "scripts": {
-    "build": "nuxt build",
+    "build": "vite build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@mdi/js": "^7.4.47",
     "nuxt": "^3.17.7",
     "vue": "^3.5.18",
     "vue-router": "^4.5.1"
-  }
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "^7.0.6",
+    "vite-plugin-dts": "^4.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewTyron/Pledge-Components.git"
+  },
+  "keywords": [
+    "components"
+  ],
+  "author": "tyronkendall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NewTyron/Pledge-Components/issues"
+  },
+  "homepage": "https://github.com/NewTyron/Pledge-Components#readme"
 }
