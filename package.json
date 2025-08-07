@@ -1,5 +1,5 @@
 {
-  "name": "pledge-custom-components",
+  "name": "graft-custom-components",
   "private": false,
   "type": "module",
   "version": "1.0.6",
@@ -37,7 +37,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NewTyron/Pledge-Components.git"
+    "url": "git+https://github.com/NewTyron/Graft-Components.git"
   },
   "keywords": [
     "components"
@@ -45,7 +45,7 @@
   "author": "tyronkendall",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NewTyron/Pledge-Components/issues"
+    "url": "https://github.com/NewTyron/Graft-Components/issues"
   },
-  "homepage": "https://github.com/NewTyron/Pledge-Components#readme"
+  "homepage": "https://github.com/NewTyron/Graft-Components#readme"
 }
